@@ -11031,7 +11031,7 @@ html {
   padding: 1rem;
 }
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
@@ -11047,7 +11047,20 @@ html {
 #conocenos{
   text-align: justify;
 }
+#donar{
+text-align: justify;
+}
 
+#imagenes img{
+  width: 100px;
+  height: 100px;
+}
+@media (min-width: 992px) {
+  #imagenes {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
 
 .footer {
   padding-top: 5rem;
